@@ -1,10 +1,8 @@
 require "erb"
 require "json"
 
-# Call like this:
-#
 $ ruby scripts/add_collection.rb mutated_monke mutated_monkes "" ""
-#
+
 
 # Get ids from the console command and do some cleanup
 collection = {
