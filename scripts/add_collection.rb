@@ -3,7 +3,7 @@ require "json"
 
 # Call like this:
 #
-#   ruby scripts/add_collection.rb <moonrank_id> <magiceden_id> <solanart_id> <alphaart_id>
+$ ruby scripts/add_collection.rb mutated_monke mutated_monkes "" ""
 #
 
 # Get ids from the console command and do some cleanup
