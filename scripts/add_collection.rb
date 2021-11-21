@@ -8,10 +8,10 @@ $ ruby scripts/add_collection.rb mutated_monke mutated_monkes "" ""
 
 # Get ids from the console command and do some cleanup
 collection = {
-  moonrank: ARGV[0],
-  magic_eden: ARGV[1],
-  solanart: ARGV[2],
-  alpha_art: ARGV[3]
+  moonrank: mutated_monke,
+  magic_eden: mutated_monkes,
+  solanart: null,
+  alpha_art: null
 }
 collection.transform_values! do |id|
   id == "" ? nil : id
